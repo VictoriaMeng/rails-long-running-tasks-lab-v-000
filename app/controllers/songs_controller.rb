@@ -47,8 +47,7 @@ class SongsController < ApplicationController
   end
 
   def upload
-    binding.pry
-    redirect to songs_path
+    redirect_to songs_path
   end
 
   private
