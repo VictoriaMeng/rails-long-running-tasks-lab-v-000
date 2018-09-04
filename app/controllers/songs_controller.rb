@@ -47,7 +47,6 @@ class SongsController < ApplicationController
   end
 
   def upload
-    binding.pry
     CSV.foreach(params[:file].path, headers: true) do |song|
       binding.pry
     end
